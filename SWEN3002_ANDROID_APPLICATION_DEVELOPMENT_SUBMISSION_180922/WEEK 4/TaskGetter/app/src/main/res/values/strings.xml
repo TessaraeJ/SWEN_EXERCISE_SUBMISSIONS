@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task Getter</string>
+    <string name="TASK_COMPLETE">Complete</string>
+    <string name="TASK_INCOMPLETE">Incomplete</string>
+</resources>

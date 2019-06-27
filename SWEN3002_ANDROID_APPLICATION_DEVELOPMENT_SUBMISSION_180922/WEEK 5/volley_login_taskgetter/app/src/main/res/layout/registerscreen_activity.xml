@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/registertitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="35sp"
+        android:text="Registration Screen"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:id="@+id/registerinfo"
+        android:layout_width="376dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/registertitle"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/newusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:paddingTop="30dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/newpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:paddingTop="30dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/confirmpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:paddingTop="30dp"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Register"
+        android:layout_below="@id/registerinfo"
+        android:layout_alignEnd="@id/registerinfo"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Login"
+        android:layout_below="@id/registerinfo"
+        android:layout_alignStart="@id/registerinfo"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+

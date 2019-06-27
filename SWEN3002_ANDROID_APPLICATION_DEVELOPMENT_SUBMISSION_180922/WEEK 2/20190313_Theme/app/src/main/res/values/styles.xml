@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
+
+        <item name="android:windowBackground">@color/soothing_blue</item>
+        <item name="buttonStyle">@style/BeatBoxButton</item>
+
+        <item name="sound_item_bckgrnd">@color/dark_blue</item>
+        <item name="sound_item_txt_color">@color/black</item>
+    </style>
+
+    <style name="BeatBoxButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/dark_blue</item>
+    </style>
+
+    <style name="BeatBoxButton2" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/dark_green</item>
+    </style>
+    
+    <!--custom light theme 1-->
+    <style name="CustomLightAppTheme_1.AppCompat.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <item name="colorAccent">@color/gray</item>
+        <item name="sound_item_bckgrnd">@color/navy</item>
+        <item name="sound_item_txt_color">@color/black</item>
+
+        <item name="android:windowBackground">@color/silver</item>
+        <item name="buttonStyle">@style/BeatBoxButton</item>
+    </style>
+
+    <!--custom dark theme 1-->
+    <style name="CustomDarkAppTheme_1.AppCompat.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/navy</item>
+        <item name="sound_item_bckgrnd">@color/dark_green</item>
+        <item name="sound_item_txt_color">@color/gray</item>
+
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:buttonStyle">@style/BeatBoxButton2</item>
+    </style>
+</resources>

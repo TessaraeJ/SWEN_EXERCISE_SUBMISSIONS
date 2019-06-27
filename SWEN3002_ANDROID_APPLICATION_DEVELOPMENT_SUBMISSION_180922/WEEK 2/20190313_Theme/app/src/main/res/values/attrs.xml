@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="beatbox_stylable">
+        <attr name="sound_item_bckgrnd" format="color"/>
+        <attr name="sound_item_txt_color" format="color"/>
+    </declare-styleable>
+
+</resources>
